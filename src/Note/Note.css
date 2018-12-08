@@ -1,0 +1,45 @@
+.Note{
+    width: 60%;
+    margin: auto;
+    padding: 10px 20px;
+    border: solid 1px #ccc;
+    border-bottom: none;
+    transition: .3s;
+}
+.Note:nth-child(even){
+    background: rgb(246, 246, 246);
+}
+.Note:hover{
+    background: rgb(210, 255, 210);
+}
+.Note:first-of-type{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 20px;
+}
+.Note:last-of-type{
+    border-bottom: solid 1px #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.removeNote{
+    float: right;
+    font-weight: bold;
+}
+.removeNote:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+
+
+
+
+@media (max-width:600px){
+    .Note{
+        width: 80%;
+        margin: auto;
+        padding: 10px 20px;
+    }
+}

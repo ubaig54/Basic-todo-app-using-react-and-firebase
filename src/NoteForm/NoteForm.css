@@ -1,0 +1,61 @@
+.NoteForm{
+    width: 100%;
+  }
+  .NoteFormContainer{
+    width: 500px;
+    margin: auto;
+  }
+  .NoteForm input{
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border:none;
+    background: rgb(245, 245, 245);
+    transition: .3s;
+  }
+  /* ::-webkit-input-placeholder{
+    color: #ccc;
+  } */
+  .NoteForm input:focus{
+    outline: none;
+    background: rgb(240, 240, 240);
+  }
+  .NoteForm button{
+    width: 16%;
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: rgb(1, 192, 103);
+    color: #fff;
+    font-weight: bold;
+    transition: .3s;
+  }
+  .NoteForm button:hover{
+    cursor: pointer;
+    background: rgb(2, 211, 113);
+  }
+
+
+
+
+
+
+
+
+  @media (max-width:600px){
+  .NoteFormContainer{
+    width: 300px;
+    margin: auto;
+  }
+  .NoteForm input{
+    padding: 10px;
+    width: 70%;
+  }
+  .NoteForm button{
+    width: 16%;
+    padding: 10px;
+  }
+}
